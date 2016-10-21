@@ -1,0 +1,91 @@
+@charset "UTF-8";
+body {
+  /*font-family: Microsoft Yahei,Helvetica Neue, Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;*/
+  font-family: arial, 'Hiragino Sans GB', '微软雅黑', MicrosoftYaHei, '宋体', Tahoma, Arial, Helvetica, STHeiti;
+  font-size: 14px; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+.topbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: #fff;
+  background-color: #00B7FF; }
+
+header {
+  width: 100%;
+  display: block;
+  top: 0px;
+  background-color: #fff;
+  z-index: 999;
+  border-bottom: 1px solid #eee; }
+  header .head-warp {
+    position: relative;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    transition: padding-top 1s;
+    transition: padding-bottom 1s;
+    -webkit-transition: padding-top 1s;
+    -webkit-transition: padding-bottom 1s;
+    overflow: hidden; }
+    header .head-warp .logo {
+      position: relative;
+      height: 100%;
+      float: left;
+      max-width: 160px;
+      vertical-align: middle;
+      display: table; }
+      header .head-warp .logo a {
+        width: 160px;
+        vertical-align: middle;
+        display: table-cell; }
+        header .head-warp .logo a img {
+          display: inline;
+          vertical-align: middle;
+          max-width: 100%;
+          max-height: 100%; }
+      header .head-warp .logo p {
+        position: absolute;
+        left: 160px;
+        width: 60px;
+        font-size: 16px;
+        margin-bottom: 0px; }
+    header .head-warp .navbar li {
+      display: inline;
+      padding-left: 10px;
+      padding-right: 10px; }
+      header .head-warp .navbar li a {
+        display: inline-block;
+        line-height: 43px;
+        letter-spacing: 1.5px;
+        text-decoration: none;
+        font-size: 16px;
+        transition: font-size ease-in-out 1s;
+        -webkit-transition: font-size ease-in-out 1s; }
+    header .head-warp .navbarIco {
+      padding-left: 0px;
+      padding-top: 15px; }
+      header .head-warp .navbarIco li {
+        list-style: none; }
+        header .head-warp .navbarIco li a {
+          padding: 10px 15px 10px 15px;
+          background-color: #f7f7f7;
+          border: 1px solid #f7f7f7;
+          color: #000000; }
+
+.stuckMenu {
+  height: 95px; }
+
+.isStuck {
+  width: 100%;
+  background-color: #fff;
+  z-index: 999;
+  border-bottom: 1px solid  #eee;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  height: 80px;
+  opacity: 0.9;
+  transition: height 2s,opacity 2s; }
+
+/*# sourceMappingURL=style.css.map */
